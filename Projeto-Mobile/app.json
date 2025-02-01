@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Festas Encantadas & Cia",
+    "slug": "festaApp",
+    "version": "3.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/adaptiveIcon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptiveIcon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.festaApp",
+      "runtimeVersion": "3.0.0"
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "plugins": [
+      "expo-secure-store"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e91b89fe-7700-4213-9ae7-9f7cfadd4636"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/e91b89fe-7700-4213-9ae7-9f7cfadd4636"
+    }
+  }
+}
